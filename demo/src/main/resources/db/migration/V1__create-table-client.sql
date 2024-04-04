@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS orbital_bd;
+
+CREATE TABLE IF NOT EXISTS client(
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    date_birth DATE
+);
